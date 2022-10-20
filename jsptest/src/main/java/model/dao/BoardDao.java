@@ -29,8 +29,17 @@ public class BoardDao {
 			ps.setString(2, bcontent);
 			ps.setString(3, bname);
 			ps.setString(4, bpassword);
+			ps.executeUpdate();
 			return true;
 		} catch (Exception e) {System.out.println(e);}
 		return false;
 	}
+	
+//	public static boolean getlist() {
+//		
+//	}
+	
+//	public static boolean getboard() {
+//	
+//}	
 }
