@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* 왼쪽편 테이블 시작 */
+#left{ /* 홈페이지 절반을 짤라서 왼쪽편  */
+	width:49%;
+	height: 2000px;
+	border: 1px solid red;
+	float: left;
+	text-align: center;
+}
+#leftTitle{
+	text-align: center;
+	font-weight: bold;
+}
+#submitButton{
+	width: 100px;
+	height: 100px;
+}
+
+
+.line{  /* 구분선 */
+	border-bottom : 1px solid black;
+}
+
+
+/* 왼쪽편 테이블 끝 */
+/* 오른쪽편 테이블 시작 */
+#right{ /* 홈페이지 절반을 짤라서 오른쪽편  */
+	width:49%;
+	height: 2000px;
+	border: 1px solid blue;
+	float: right;
+	text-align: center;
+}
+/* 오른쪽편 테이블 끝 */
